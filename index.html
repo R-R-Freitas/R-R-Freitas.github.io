@@ -3,40 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfólio</title>
+  <style>
+    strong{
+      text-decoration: underline;
+    }
+    em{
+      font-weight: bolder;
+    }
+      
+    .body{
+      padding-left: 5%;
+      background-color: black;
+    }
+    .name{
+      padding-left: 3%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 40px;
+      color: white;
+      background-color: darkgreen;
+    }
+    .section-title{
+      padding-left: 3%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 30px;
+      color: white;
+      background-color: darkgreen;
+    }
+    .content{
+      padding-left: 5%;
+      color:white;
+      font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .links{
+      text-decoration: underline;
+      color: white;
+    }
+    .photo{
+      padding-left: 3%;
+      width: 15%;
+    }
+    .first-item{
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .other-items{
+      font-weight:lighter;
+    }
+  </style>
 </head>
-<body>
-  <h1>Rodrigo Rafael Freitas</h1><br>
+<body class = "body">
+  <h1 class = "name">Rodrigo Rafael Freitas</h1><br>
   
-  <h2>Sumario</h2>
+  <h2 class = "section-title">Sumário</h2>
 
-  <ol>
-  <li><a href="#Sobre mim">Sobre mim</a></li>
-  <li><a href="#Qualidades">Qualidades</a></li>
-  <li><a href="#Blogs e sites indicados">Blogs e sites indicados</a></li>
+  <ol class = "content">
+  <li><a class = "links" href="#Sobre mim">Sobre mim</a></li>
+  <li><a class = "links" href="#Qualidades">Qualidades</a></li>
+  <li><a class = "links" href="#Blogs e sites indicados">Blogs e sites indicados</a></li>
   </ol>
   
-  <a href="/Images/Rodrigo.jpg"><img src="Images/Rodrigo.jpg" alt="Foto de Rodrigo Rafael Freitas" width = "400px"></a>    
+  <a href="/Images/Rodrigo.jpg"><img class = "photo" src="Images/Rodrigo.jpg" alt="Foto de Rodrigo Rafael Freitas"></a>    
   
   <br>
-  <h2>Sobre mim</h2>
+  <h2 class = "section-title">Sobre mim</h2>
 
-  <p>Brasileiro, ex-bancário, residente em São João Batista - SC,<br>
+  <p class = "content"><strong>Brasileiro</strong>, ex-bancário, residente em <strong>São João Batista - SC</strong>,<br>
   recentemente iniciei estudos em <em>programação web</em>.</p>
   
   <br>
-  <h2>Qualidades</h2>
+  <h2 class = "section-title">Qualidades</h2>
 
-  <ul>
-    <li><h4>Criativo</h4></li>
-    <li>Cooperativo</li>
+  <ul class = "content">
+    <li class = "first-item">Criativo</li>
+    <li class = "other-items">Cooperativo</li>
     <li>Agil</li>
     <li>Objetivo</li>
   </ul>
   
   <br>
-  <h2>Blogs e sites indicados</h2>
+  <h2 class = "section-title">Blogs e sites indicados</h2>
 
-  Indico o blog <a href="https://arstechnica.com/" target="_blank">Ars Technica</a>
+  <p class = "content">Indico o blog <a class = "links" href="https://arstechnica.com/" target="_blank">Ars Technica</a></p>
 
 </body>
 </html>
