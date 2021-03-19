@@ -1,0 +1,62 @@
+body{
+    background-color:darkslategray;
+}
+
+span.info{
+    text-decoration: underline;
+  }
+  span.italic{
+    font-weight: bolder;
+    font-style: italic;
+  }
+
+  .left-menu {
+    background-color: black;
+    margin-left: 3%;
+    margin-top: 1%;    
+    max-width: 14%;
+    display: inline-block;
+    float: left;
+  }
+    
+  .main{
+    margin: 1%;
+    max-width: 60%;
+    background-color: black;
+    display: inline-block;
+  }
+  .name{
+    padding-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+    background-color: darkgreen;
+  }
+  .section-title{
+    padding-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: darkgreen;
+  }
+  .content{
+    padding-left: 40px;
+    color:white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .links{
+    text-decoration: underline;
+    color: white;
+  }
+  .photo{
+    padding-left: 3%;
+    width: 15%;
+  }
+  .first-item{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .other-items{
+    font-weight:lighter;
+  }
