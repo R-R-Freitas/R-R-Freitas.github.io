@@ -1,8 +1,8 @@
-body{
+  body{
     background-color:darkslategray;
-}
+  }
 
-span.info{
+  span.info{
     text-decoration: underline;
   }
   span.italic{
@@ -11,6 +11,10 @@ span.info{
   }
 
   .left-menu {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(180, 99, 0);
     background-color: black;
     margin-left: 3%;
     margin-top: 1%;    
@@ -18,14 +22,24 @@ span.info{
     display: inline-block;
     float: left;
   }
-    
+
+  .divname{
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-color: rgb(180, 99, 0);
+  }
   .main{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(180, 99, 0);
     margin: 1%;
     max-width: 60%;
     background-color: black;
     display: inline-block;
   }
   .name{
+    text-align: center;
     padding-left: 3%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
@@ -39,6 +53,8 @@ span.info{
     color: white;
     background-color: darkgreen;
   }
+
+  
   .content{
     padding-left: 40px;
     color:white;
@@ -49,14 +65,32 @@ span.info{
     text-decoration: underline;
     color: white;
   }
+  div.aboutme{
+    vertical-align: top;
+    max-width: 35%;
+    display: inline-block;
+    padding-bottom:;
+  }
+  .divphoto{
+    background-color: rgb(180, 99, 0);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(180, 99, 0);
+
+  }
   .photo{
-    padding-left: 3%;
-    width: 15%;
+    padding: 5%;
+    width: 90%;
   }
   .first-item{
     font-size: 28px;
     font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
   }
   .other-items{
     font-weight:lighter;
+    font-style: italic;
+    text-decoration: underline;
   }
