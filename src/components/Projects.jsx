@@ -12,8 +12,8 @@ function Projects() {
 
     { projects.map((project) =>
       <Project 
-      name={project.name}
-      link={project.link}
+        name={project.name}
+        link={project.link}
       />
       )}
     </div>
