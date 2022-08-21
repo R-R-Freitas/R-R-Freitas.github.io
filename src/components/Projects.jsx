@@ -3,22 +3,22 @@ import Project from './Project';
 
 function Projects() {
   const projects = [
-    { name: '', link: '' },
-    { name: '', link: '' },
-    { name: '', link: '' },
-    { name: '', link: '' },
+    { name: 'Trivia Project', link: 'https://github.com/R-R-Freitas/Trivia-Project' },
+    { name: 'Recipes App', link: 'https://github.com/R-R-Freitas/RecipesApp' },
+    { name: 'Trybe Futebol Clube', link: 'https://github.com/R-R-Freitas/trybe-futebol-clube' },
+    { name: 'Car Shop', link: 'https://github.com/R-R-Freitas/car-shop' },
   ]
   return (
     <div className='Projects'>
-
-    { projects.map((project) =>
-      <Project 
-        name={project.name}
-        link={project.link}
-      />
+      { projects.map((project, index) =>
+        <Project 
+          key={index}
+          name={project.name}
+          link={project.link}
+        />
       )}
     </div>
-  )
-}
+  );
+};
 
 export default Projects;
