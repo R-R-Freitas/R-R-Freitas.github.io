@@ -1,7 +1,6 @@
 import React from 'react';
 
 function About(photo, myName, profession) {
-  const { photo, myName } = this.props;
   return (
     <div className='About'>
       <img className='AboutPhoto' src={photo} alt={myName} />
