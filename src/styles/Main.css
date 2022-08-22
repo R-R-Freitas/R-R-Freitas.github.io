@@ -1,0 +1,13 @@
+.Main {
+  align-items: center;
+  background-color: #c4c4b0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-width: 360px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  position: relative;
+  width: 100vw;
+}

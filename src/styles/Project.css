@@ -1,0 +1,18 @@
+.Project {
+  align-items: center;
+  background-color: rgb(40, 99, 99);
+  border: 3px solid darkgray;
+  border-radius: 15px;
+  display: flex;
+  height: 5vh;
+  width: 30vw;
+}
+
+.Project a {
+  color: black;
+  font-family: Verdana;
+  font-size: x-large;
+  font-weight: 600;
+  padding-left: 5vw;
+  text-decoration: none;
+}
